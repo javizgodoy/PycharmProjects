@@ -1,0 +1,4 @@
+TempFarenheit = int(input("Añade la temperatura en ºF: "))
+TempCelsius = (TempFarenheit - 32) * 5 / 9
+
+print("{} ºF son {} ºC".format(TempFarenheit, TempCelsius))
