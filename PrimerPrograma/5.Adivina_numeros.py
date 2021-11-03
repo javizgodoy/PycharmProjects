@@ -17,7 +17,7 @@ while numero_escogido != numero_ganador:
     numero_escogido = int(input("Elige un número del 1 al 10: "))
 
 if numero_escogido == numero_ganador:
-    print("¡Enhorabuena, has acertado!")
+    print("¡Enhorabuena, has acertado! Menuda suerte :)")
 
 
 
