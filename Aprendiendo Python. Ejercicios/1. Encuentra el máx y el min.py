@@ -16,3 +16,7 @@ numero_minimo = min(numero_uno,numero_dos, numero_tres)
 
 print("El número mayor es el {} y el número menor, el {}".format(numero_maximo, numero_minimo))
 
+TempFarenheit = int(input("Añade la temperatura en ºF: "))
+TempCelsius = (TempFarenheit - 32) * 5 / 9
+
+print("{} ºF son {} ºC".format(TempFarenheit, TempCelsius))
